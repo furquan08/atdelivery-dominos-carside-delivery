@@ -1,0 +1,42 @@
+{
+  "Order": {
+    "Address": {
+      "City": "PHENIX CITY",
+      "Region": "AL",
+      "PostalCode": "00000-9944"
+    },
+    "Coupons": [],
+    "CustomerID": "",
+    "Email": "xyz@gmail.com",
+    "Extension": "",
+    "FirstName": "Kavya",
+    "LastName": "Paripelli",
+    "LanguageCode": "en",
+    "OrderChannel": "OLO",
+    "OrderID": "_vOPUa66aIzSwCv3zsg_",
+    "OrderMethod": "Web",
+    "OrderTaker": null,
+    "Payments": [],
+    "Phone": "2017443008",
+    "PhonePrefix": "",
+    "Products": [{
+      "Code": "2LCOKE",
+      "Qty": 1,
+      "ID": 1,
+      "isNew": true,
+      "ShowBestPriceMessage": false,
+      "Options": {}
+    }],
+    "ServiceMethod": "Carryout",
+    "SourceOrganizationURI": "order.dominos.com",
+    "StoreID": "9944",
+    "Tags": {},
+    "Version": "1.0",
+    "NoCombine": true,
+    "Partners": {},
+    "OrderInfoCollection": [],
+    "metaData": {
+      "orderFunnel": "payments"
+    }
+  }
+}

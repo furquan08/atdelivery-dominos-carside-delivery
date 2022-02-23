@@ -1,0 +1,74 @@
+{
+  "Order": {
+    "Address": {
+      "City": "PHENIX CITY",
+      "Region": "AL",
+      "PostalCode": "00000-9944"
+    },
+    "Coupons": [],
+    "CustomerID": "",
+    "Email": "xyz@gmail.com",
+    "Extension": "",
+    "FirstName": "Kavya",
+    "LastName": "Paripelli",
+    "LanguageCode": "en",
+    "OrderChannel": "OLO",
+    "OrderID": "_vOPUa66aIzSwCv3zsg_",
+    "OrderMethod": "Web",
+    "OrderTaker": null,
+    "Payments": [
+      {
+        "Type": "CreditCard",
+        "Amount": 2.15,
+        "Number": "6011000990911111",
+        "CardType": "DISCOVER",
+        "Expiration": "1221",
+        "SecurityCode": "111",
+        "PostalCode": "33606",
+        "ProviderID": "",
+        "OTP": "",
+        "gpmPaymentType": ""
+      }
+    ],
+    "Phone": "2017443008",
+    "PhonePrefix": "",
+    "Products": [
+      {
+        "Code": "2LCOKE",
+        "Qty": 1,
+        "ID": 1,
+        "isNew": true,
+        "ShowBestPriceMessage": false,
+        "Options": {}
+      }
+    ],
+    "ServiceMethod": "Carryout",
+    "SourceOrganizationURI": "order.dominos.com",
+    "StoreID": "9944",
+    "Tags": {},
+    "Version": "1.0",
+    "NoCombine": true,
+    "Partners": {},
+    "OrderInfoCollection": [],
+    "NewUser": true,
+    "metaData": {
+      "ducOrder": {
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "color": "Blue",
+        "orderPlacement": "Driver Side",
+        "optInPhoneNumber": "(201) 744-3008"
+      },
+      "isDomChat": 0,
+      "ABTests": [
+        "ECOM-16209 - Control",
+        "ECOM-17094 - Control",
+        "ECOM-15228 - Experience B",
+        "ECOM-16564 - Control",
+        "ECOM-17591 - Control"
+      ],
+      "contactless": true,
+      "autoCheckInEnabled": false
+    }
+  }
+}

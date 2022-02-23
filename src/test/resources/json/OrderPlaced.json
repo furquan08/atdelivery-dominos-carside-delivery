@@ -1,0 +1,143 @@
+{
+  "Address": {
+    "PostalCode": "00000-9944"
+  },
+  "Coupons": [],
+  "Currency": "USD",
+  "CustomerID": "",
+  "Email": "kavs444@gmail.com",
+  "Extension": "",
+  "FirstName": "Kavya",
+  "IP": "172.18.8.35",
+  "LanguageCode": "en",
+  "LastName": "Paripelli",
+  "NoCombine": true,
+  "OrderChannel": "OLO",
+  "OrderID": "bJhP-XhNgQn873HgCuiW",
+  "OrderInfoCollection": [],
+  "OrderMethod": "Web",
+  "Partners": {},
+  "Payments": [{
+    "Amount": 18.35,
+    "CardHolderName": "KavyaParipelli",
+    "CardType": "Discover Card",
+    "Expiration": "1025",
+    "Number": "9424",
+    "PostalCode": "95131",
+    "SecurityCode": "XXX",
+    "Type": "CreditCard",
+    "Wallet": {
+      "BackingCardNumber": "1234",
+      "Type": "Paypal",
+      "PaypalEmail": "dpi.golo-buyer@dominos.com"
+    },
+    "ProviderID": "",
+    "OTP": "",
+    "DeviceData": "{\"correlation_id\":\"2ea3223b7afe68190eefdca1540d0fdf\"}"
+  }],
+  "Phone": "2017443008",
+  "PhonePrefix": "",
+  "ServiceMethod": "Carryout",
+  "SourceOrganizationURI": "order.dominos.com",
+  "StoreID": "9944",
+  "Tags": {},
+  "Version": "1.0",
+  "UserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",
+  "NewUser": "false",
+  "Market": "UNITED_STATES",
+  "Promotions": {
+    "Redeemable": [],
+    "Valid": []
+  },
+  "Status": 0,
+  "StatusItems": [{
+    "Code": "PriceInformationRemoved"
+  }, {
+    "Code": "PrsComplete",
+    "PRSCode": 0,
+    "PRSId": "e5ebb8c2-7f56-4ffa-ae4f-fd1c2a578903"
+  }],
+  "Amounts": {
+    "Menu": 16.99,
+    "Discount": 0,
+    "Surcharge": 0,
+    "Adjustment": 0,
+    "Net": 16.99,
+    "Tax": 1.36,
+    "Tax1": 1.36,
+    "Tax2": 0,
+    "Bottle": 0,
+    "Customer": 18.35,
+    "Payment": 18.35
+  },
+  "BusinessDate": "2020-08-20",
+  "EstimatedWaitMinutes": "4-14",
+  "PulseOrderGuid": "d21b5926-b9cb-488c-8fe9-121b230a7435",
+  "Products": [{
+    "ID": 1,
+    "Code": "14SCEXTRAV",
+    "Qty": 1,
+    "CategoryCode": "Pizza",
+    "FlavorCode": "HANDTOSS",
+    "Price": 16.99,
+    "Status": 0,
+    "LikeProductID": 0,
+    "Name": "Large (14\") Hand Tossed ExtravaganZZa ",
+    "IsNew": false,
+    "NeedsCustomization": false,
+    "AutoRemove": false,
+    "Fulfilled": false,
+    "Tags": {},
+    "descriptions": [{
+      "portionCode": "1/1",
+      "value": "Robust Inspired Tomato Sauce, Extra Cheese, Pepperoni, Ham, Onions, Green Peppers, Black Olives, Extra Large Italian Sausage, Beef"
+    }]
+  }],
+  "LoadTime": 0,
+  "metaData": {
+    "ducOrder": {
+      "make": "Chevrolet",
+      "model": "Cruze",
+      "color": "Blue",
+      "optInPhoneNumber": "(201) 744-3008",
+      "orderPlacement": "Driver Side"
+    },
+    "ABTests": ["ECOM-20567 - Experience E", "ECOM-23068 - Control", "ECOM-23618 - Control", "ECOM-21610 - Control"]
+  },
+  "Loyalty": {
+    "ResolvedCustomerID": "F7TAs0qMvsftKqHZBQSm--yH-RY-AAr3pPb9bwtY",
+    "TransactionType": "PlaceOrder",
+    "Earn": {
+      "BonusPoints": 0,
+      "BasePoints": 0,
+      "TotalPoints": 0,
+      "PendingPoints": 0
+    },
+    "Burn": {
+      "RedemptionPoints": 0
+    },
+    "PendingBalance": 335,
+    "PointBalance": 0,
+    "TransactionId": "383934",
+    "NOCLoyaltyAlertNeeded": false
+  },
+  "StoreOrderID": "2020-08-20#10289",
+  "StorePlaceOrderTime": "2020-08-20 10:10:37",
+  "PlaceOrderTime": "2020-08-20 10:10:33",
+  "PlaceOrderMs": 9390,
+  "AmountsBreakdown": {
+    "FoodAndBeverage": "16.99",
+    "Adjustment": "0.00",
+    "Surcharge": "0.00",
+    "DeliveryFee": "0.00",
+    "Tax": 1.36,
+    "Tax1": 1.36,
+    "Tax2": 0,
+    "Tax3": 0,
+    "Tax4": 0,
+    "Tax5": 0,
+    "Bottle": 0,
+    "Customer": 18.35,
+    "Savings": "0.00"
+  }
+}

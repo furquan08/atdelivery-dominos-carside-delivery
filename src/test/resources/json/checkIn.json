@@ -1,0 +1,12 @@
+{
+  "alertType": "DUC_CUSTOMER_ARRIVED",
+  "storeNumber": "9944",
+  "orderId": "1ad1326b-20ff-4098-802b-0be6847a5290",
+  "platform": "order.dominos.com",
+  "customerVehicle": {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "color": "Blue"
+  },
+  "orderPlacement": "Driver Side"
+}

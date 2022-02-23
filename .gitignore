@@ -1,0 +1,11 @@
+.gradle
+.idea/
+/build/
+**swo
+**swp
+target/
+.classpath
+.project
+output/
+*.iml
+

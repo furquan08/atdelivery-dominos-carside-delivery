@@ -1,0 +1,43 @@
+int counter = 1
+int threshold = 3
+def request(String environment) {
+    println 'Starting sanity check'
+    try {
+        println "${environment}"
+        String response = "curl -H 'Content-Type: application/xml' http://services-${environment}.us.dominos.com:8080/delivery-presentation-service/admin/health/check".execute().text
+        assert response.contains("status=\"HEALTHY\"") && response.contains("<key>Cluster.Members.Count</key><value>1</value>")
+        println 'Up and running!'
+        return 200
+    } catch (AssertionError aex){
+        println 'Service is not ready yet'
+    }
+    return 400
+}
+
+task check {
+    String environment="mi-dev1";
+    switch ("${STACK_ENV}") {
+        case "us-qa1":
+            environment="mi-qa1"
+            break;
+        case "us-preprod":
+            environment = "mi-preprod";
+            break;
+        case "va-prod1":
+        case "va-prod2":
+        case "mi-prod1":
+        case "mi-prod2":
+            environment="${STACK_ENV}";
+            break;
+    }
+
+    while (request(environment) != 200 && counter < threshold){
+        Thread.sleep(60* 1000)
+        counter++
+    }
+
+    if(counter==threshold)
+    {
+        throw new RuntimeException("Waiting for service to reach timeout")
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "Order": {
+    "Address": {
+      "PostalCode": "00000-9944"
+    },
+    "Coupons": [],
+    "CustomerID": "",
+    "Email": "kavs444@gmail.com",
+    "Extension": "",
+    "FirstName": "Kavya",
+    "LastName": "Paripelli",
+    "LanguageCode": "en",
+    "OrderChannel": "OLO",
+    "OrderID": "hMy9gzwn0wvYOwOqje1K",
+    "OrderMethod": "Web",
+    "OrderTaker": null,
+    "Payments": [{
+      "Type": "Cash",
+      "Amount": 2.15,
+      "Number": "",
+      "CardType": "",
+      "Expiration": "",
+      "SecurityCode": "",
+      "PostalCode": "",
+      "ProviderID": "",
+      "OTP": "",
+      "gpmPaymentType": ""
+    }],
+    "Phone": "2017443008",
+    "PhonePrefix": "",
+    "Products": [{
+      "Code": "2LCOKE",
+      "Qty": 1,
+      "ID": 1,
+      "isNew": true,
+      "ShowBestPriceMessage": false,
+      "Options": {}
+    }],
+    "ServiceMethod": "Carryout",
+    "SourceOrganizationURI": "order.dominos.com",
+    "StoreID": "9944",
+    "Tags": {},
+    "Version": "1.0",
+    "NoCombine": true,
+    "Partners": {},
+    "HotspotsLite": false,
+    "OrderInfoCollection": [],
+    "NewUser": true,
+    "metaData": {
+      "isDomChat": 0,
+      "ABTests": ["ECOM-20567 - Experience E", "ECOM-23068 - Control", "ECOM-23618 - Control", "ECOM-21610 - Control", "ECOM-23580 - Control"]
+    }
+  }
+}

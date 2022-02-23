@@ -1,0 +1,24 @@
+{
+  "batchId": "d0af6ac7-245f-4509-ad4e-b99cce0dac86",
+  "market": "UNITED_STATES",
+  "publisher": "Store-message-bridge",
+  "publisherHostName": "PULSEBOS9944",
+  "publishedAt": "2021-01-10T13:52:16.5317507-05:00",
+  "eventType": "OrderCancelled",
+  "messages": [
+    {
+      "correlationId": "751c3ca6-0837-44c6-a599-327f8c300c6e",
+      "eventAt": "2021-01-10T13:52:15.7430000-05:00",
+      "data": {
+        "status": "Bad",
+        "storeNumber": "9944",
+        "businessDate": "2021-01-10",
+        "orderNumber": 12878,
+        "storeOrderId": 12878,
+        "pulseOrderGuid": "AAEA8738-F3F3-4BF7-B42F-58B36A651C21",
+        "eCommOrderId": "jOmbF2GFAVLTHQ8dfOhi",
+        "storeAsOfTime": "2021-01-10T13:52:16.5317507-05:00"
+      }
+    }
+  ]
+}

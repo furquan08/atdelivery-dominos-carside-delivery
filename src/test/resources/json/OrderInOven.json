@@ -1,0 +1,24 @@
+{
+  "batchId": "719117bc-16da-49cd-8f76-e988b9916964",
+  "market": "UNITED_STATES",
+  "publisher": "Store-message-bridge",
+  "publisherHostName": "PULSEBOS9944",
+  "publishedAt": "2020-04-05T20:18:16.5119788-04:00",
+  "eventType": "OrderInOven",
+  "messages": [
+    {
+      "correlationId": "80179879-85fb-4bfb-a0f6-ae30ac2f41a6",
+      "eventAt": "2020-04-05T20:18:13.0000000-04:00",
+      "data": {
+        "makeTimeSecs": 41,
+        "storeNumber": "9944",
+        "businessDate": "2020-04-05",
+        "orderNumber": 7746,
+        "storeOrderId": 7746,
+        "pulseOrderGuid": "BEFA6987-5966-4F84-A36B-615973FC276A",
+        "eCommOrderId": "_XZlAk0OYEmKP2NhY0hw",
+        "storeAsOfTime": "2020-04-05T20:18:16.5119788-04:00"
+      }
+    }
+  ]
+}

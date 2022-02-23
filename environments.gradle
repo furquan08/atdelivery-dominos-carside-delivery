@@ -1,0 +1,12 @@
+ext {
+    configurationDir = "."
+}
+
+def filesToInclude = ["application-${dpzenv}.properties"]
+def toDirectory = 'src/main/resources/'
+task settingEnvironment(type:Copy){
+    from configurationDir
+    into toDirectory
+    include filesToInclude
+    rename { String fileName -> fileName.replace("-${dpzenv}", '') }
+}

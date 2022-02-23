@@ -1,0 +1,24 @@
+{
+  "batchId": "404dc897-93e0-43db-85cd-40f6e9b286d1",
+  "market": "UNITED_STATES",
+  "publisher": "Store-message-bridge",
+  "publisherHostName": "PULSEBOS9944",
+  "publishedAt": "2021-01-10T13:45:05.1951596-05:00",
+  "eventType": "OrderComplete",
+  "messages": [
+    {
+      "correlationId": "5ad17529-68e0-40eb-85cd-02a8f75fbaba",
+      "eventAt": "2021-01-10T13:45:01.1430000-05:00",
+      "data": {
+        "rackTimeSecs": 62,
+        "storeNumber": "9944",
+        "businessDate": "2021-01-10",
+        "orderNumber": 12878,
+        "storeOrderId": 12878,
+        "pulseOrderGuid": "AAEA8738-F3F3-4BF7-B42F-58B36A651C21",
+        "eCommOrderId": "jOmbF2GFAVLTHQ8dfOhi",
+        "storeAsOfTime": "2021-01-10T13:45:05.1951596-05:00"
+      }
+    }
+  ]
+}
